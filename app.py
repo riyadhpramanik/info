@@ -30,7 +30,7 @@ def get_jwt_token_sync(region):
         "US": "https://jwt-token-api-by-ajay.vercel.app/token?uid=4422013059&password=9A14867BBA0091781F5BBAC54DDC945B7C3B317B5C35E01AA62BC67DD910F22F",
         "SAC": "https://jwt-token-api-by-ajay.vercel.app/token?uid=4422013059&password=9A14867BBA0091781F5BBAC54DDC945B7C3B317B5C35E01AA62BC67DD910F22F",
         "NA": "https://jwt-token-api-by-ajay.vercel.app/token?uid=4422013059&password=9A14867BBA0091781F5BBAC54DDC945B7C3B317B5C35E01AA62BC67DD910F22F",
-        "default": "https://teamcrbapi1.vercel.app/api/token?uid=4211919159&password=5B3859B15A4EADAC15E6C1CBEC1C077D96C4997F7EDDC6796F1BAAA3C00F8E43"
+        "default": "https://jwt-token-api-by-ajay.vercel.app/token?uid=4211919159&password=5B3859B15A4EADAC15E6C1CBEC1C077D96C4997F7EDDC6796F1BAAA3C00F8E43"
     }    
     url = endpoints.get(region, endpoints["default"])
     with jwt_lock:
